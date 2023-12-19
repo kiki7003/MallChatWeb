@@ -46,4 +46,4 @@ jobs:
           # 要上传文件所在目录
           local_path: './dist/*'
           # 远程服务器目标路径
-          target_path: '/www/wwwroot/www.mallchat.cn'
+          target_path: '/www/wwwroot/111.231.3.221'
