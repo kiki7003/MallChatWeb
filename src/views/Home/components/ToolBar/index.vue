@@ -21,30 +21,6 @@ const isPc = computed(() => client === 'PC')
 
 const menuList = [
   {
-    name: '',
-    desc: '哔哩哔哩',
-    icon: 'bilibili',
-    handler: () => {
-      window.open('https://space.bilibili.com/146719540', '_blank')
-    },
-  },
-  {
-    name: '项目文档',
-    desc: '语雀',
-    icon: 'yuque',
-    handler: () => {
-      window.open('https://www.yuque.com/snab/planet/cef1mcko4fve0ur3', '_blank')
-    },
-  },
-  {
-    name: '618超优惠',
-    desc: '腾讯云',
-    icon: 'qcloud',
-    handler: () => {
-      window.open('https://curl.qcloud.com/qSaH0JLT', '_blank')
-    },
-  },
-  {
     name: '后端源码',
     desc: 'MallChatWeb Server',
     icon: 'github',
